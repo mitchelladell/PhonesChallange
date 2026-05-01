@@ -1,0 +1,78 @@
+/* Form.module.css */
+.card {
+  background: #161616;
+  border: 1px solid #222;
+  border-radius: 12px;
+  padding: 1.5rem;
+  max-width: 480px;
+}
+
+.sectionLabel {
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  color: #444;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.field {
+  margin-bottom: 1rem;
+}
+
+.field label {
+  display: block;
+  font-size: 12px;
+  color: #888;
+  margin-bottom: 4px;
+}
+
+.field input,
+.field select {
+  width: 100%;
+  font-size: 14px;
+  padding: 8px 10px;
+  border: 1px solid #2a2a2a;
+  border-radius: 8px;
+  background: #0f0f0f;
+  color: #f0f0f0;
+  outline: none;
+  transition: border-color 0.15s;
+}
+
+.field input:focus,
+.field select:focus {
+  border-color: #444;
+}
+
+.submitBtn {
+  margin-top: 1.25rem;
+  width: 100%;
+  padding: 9px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  background: #f0f0f0;
+  color: #0f0f0f;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.submitBtn:hover {
+  opacity: 0.85;
+}
+
+.errorState {
+  font-size: 12px;
+  color: #e05555;
+  font-family: monospace;
+  margin-top: 0.5rem;
+}
+
+.successState {
+  font-size: 12px;
+  color: #4caf50;
+  font-family: monospace;
+  margin-top: 0.5rem;
+}

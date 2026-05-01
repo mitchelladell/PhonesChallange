@@ -1,0 +1,56 @@
+/* Phone.module.css */
+.card {
+  background: #161616;
+  border: 1px solid #222;
+  border-radius: 12px;
+  padding: 1rem 1.25rem;
+  transition: border-color 0.15s;
+  cursor: default;
+}
+
+.card:hover {
+  border-color: #333;
+}
+
+.name {
+  font-size: 14px;
+  font-weight: 500;
+  color: #f0f0f0;
+  margin-bottom: 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.id {
+  font-size: 11px;
+  font-family: monospace;
+  color: #444;
+}
+
+.data {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #1e1e1e;
+}
+
+.dataRow {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  margin-bottom: 3px;
+}
+
+.dataRow span:first-child {
+  color: #555;
+  font-family: monospace;
+}
+
+.dataRow span:last-child {
+  color: #aaa;
+  text-align: right;
+  max-width: 60%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
