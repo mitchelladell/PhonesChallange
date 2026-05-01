@@ -1,3 +1,5 @@
+import type { IPhone } from "../types";
+
 // api/phones.ts
 const BASE_URL = "https://api.restful-api.dev/objects";
 
